@@ -9,7 +9,7 @@ import os
 import time
 import random as rd
 
-path = r'D:\English Songs  - 6\01.mp3'
+path = input(r"Enter the full Path of the file which holds songs ")
 songs = os.listdir(path)
 songvalue=0
 playsong = path+'\\'+songs[songvalue]
